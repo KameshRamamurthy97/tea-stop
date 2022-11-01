@@ -28,5 +28,5 @@ function total() {
 
   }
   function submit() {
-    alert("Your Order has been Submitted, Successfully!");
+    alert("Please fill Delivery details!");
   }

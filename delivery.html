@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/delivery.css">
+   
+    <title>Document</title>
+</head>
+<body>
+   
+        
+        
+        
+        <form action="get">
+            <h1>Home Delivery Details</h1>
+            <hr>
+            
+            
+             <p>Customer name:<input type="text" class="name" required maxlength="20"></p>
+    
+            
+    
+             <p>Male:<input type="radio" class="gender" id="gender" name="gender" required> 
+                Female:<input type="radio" class="gender" id="gender" name="gender" required>
+              Others:<input type="radio" class="gender" id="gender" name="gender" required></p>
+    
+               <p>Date of Birth:<input type="date" class="dateofbirth" required></p>
+    
+           
+    
+           
+    
+           
+    
+            <p>Phone number:<input type="text" class="phone" required maxlength="15"></p>
+            <p>Alternative Phone number:<input type="text" class="phone" required maxlenth="12"></p>
+            <p>Address: <textarea name="address" id="address" cols="100" rows="5" required maxlength="50"></textarea></p>
+            <p>Pin Code : <input type="text" class="pin" required></p>
+            
+           
+    
+            <button onclick="submit1()" class="button">Submit Order</button>
+            
+        </form>
+        
+<script src="js/gt.js"></script>
+</body>
+</html>
